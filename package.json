@@ -1,0 +1,12 @@
+{
+  "name": "yarn",
+  "version": "yarn -v",
+  "description": "yarn init . ",
+  "main": "index.js",
+  "repository": "git@github.com:alector/exo-cmd-app.git",
+  "author": "alector <panagiotispp@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
