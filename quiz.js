@@ -1,3 +1,5 @@
+// quiz vocabulaire
+
 let readlineSync = require("readline-sync")
 
 function print(a) {
@@ -78,7 +80,8 @@ Your answer: `
 
 const quiz_play = quiz_content => {
   wrong_answers = []
-  let msg_init = `\nWelcome to the FRENCH VOCABULARY GAME! You're about to be asked ${quiz_content.length} questions.\n`
+  let msg_init = `\nWelcome to the FRENCH VOCABULARY GAME! 
+  You're about to be asked ${quiz_content.length} questions.\n`
   console.log(msg_init)
   for (const [index, answer] of quiz_content.entries()) {
     // build the first part of the question_to_present
